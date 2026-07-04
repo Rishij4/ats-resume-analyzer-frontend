@@ -69,7 +69,7 @@ function UploadPage() {
       );
 
       const response = await axios.post(
-        "http://localhost:5000/api/upload",
+        "https://ats-resume-analyzer-backend-enli.onrender.com/api/upload",
         formData,
         {
           headers: {
